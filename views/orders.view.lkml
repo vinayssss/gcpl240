@@ -31,6 +31,10 @@ view: orders {
     type: string
     sql: ${TABLE}.status ;;
   }
+  dimension: status1 {
+    type: string
+    sql: ${TABLE}.status ;;
+  }
 
   dimension: user_id {
     type: number
